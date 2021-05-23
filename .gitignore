@@ -1,0 +1,27 @@
+
+# Compiled files
+*.py[cod]
+
+# Local stuff:
+manage.py
+*/local_settings.py
+*/migrations/
+*/__pycache__/
+klaar_codingtest_1/api/media/
+klaar_codingtest_1/api/migrations/
+.vscode/
+myproject/
+
+# Server stuff
+klaar_codingtest_1/static/
+html/
+klaar_codingtest_1/.htaccess
+.htaccess
+
+# Logs
+*.log
+*.out
+
+#Zip files
+*.gz
+*.tar

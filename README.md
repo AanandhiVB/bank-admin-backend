@@ -18,10 +18,20 @@ The usecases of the application:
 
 ## API Urls
 
-1. Autocomplete API - https://aanandhivb-1.herokuapp.com/api/branches/autocomplete?q=ERNAKULAM&limit=3&offset=2
+Autocomplete API
+> https://aanandhivb-1.herokuapp.com/api/branches/autocomplete?q=ERNAKULAM&limit=3&offset=2
 
-2. Search API - https://aanandhivb-1.herokuapp.com/api/branches?q=TRIVANDRUM&limit=5&offset=1
+Search API
+> https://aanandhivb-1.herokuapp.com/api/branches?q=TRIVANDRUM&limit=5&offset=1
 
+
+## Curl Scripts
+
+Autocomplete API
+> curl --location --request GET 'https://aanandhivb-1.herokuapp.com/api/branches/autocomplete?q=ERNAKULAM&limit=3&offset=2'
+
+Search API
+> curl --location --request GET 'https://aanandhivb-1.herokuapp.com/api/branches?q=TRIVANDRUM&limit=5&offset=1'
 
 ## Time Taken
 

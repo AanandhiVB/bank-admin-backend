@@ -1,1 +1,1 @@
-web: gunicorn klaar_codingtest_1.wsgi --log-file -
+web: python manage.py collectstatic --no-input; gunicorn klaar_codingtest_1.wsgi --log-file -

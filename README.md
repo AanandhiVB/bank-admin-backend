@@ -2,7 +2,7 @@
 
 ## Backend Coding Test
 
-Create a REST service that can fetch bank details, using the data given in the API’s query parameters. The data obtained is available at: **https://github.com/snarayanank2/indian_banks**. The services are written using Django and the application is hosted on Heroku. PostgreSQL is used for the backend DB and since the free-tier of Heroku has a limit of 10k rows, **_clever-cloud.com_** was used to host the database.
+Create a REST service that can fetch bank details, using the data given in the API’s query parameters. The data obtained is available at: **https://github.com/snarayanank2/indian_banks**. The services are written using Django and the application is hosted on Heroku. PostgreSQL is used for the backend database and since the free-tier of Heroku has a limit of 10k rows, **_clever-cloud.com_** was used to host the database. Postman was used for testing the APIs and for generating the curl scripts.
 
 The usecases of the application:
 
@@ -32,6 +32,7 @@ Autocomplete API
 
 Search API
 > curl --location --request GET 'https://aanandhivb-1.herokuapp.com/api/branches?q=TRIVANDRUM&limit=5&offset=1'
+
 
 ## Time Taken
 

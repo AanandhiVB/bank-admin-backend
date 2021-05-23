@@ -1,0 +1,1 @@
+web: gunicorn klaar_codingtest_1.wsgi --log-file -
